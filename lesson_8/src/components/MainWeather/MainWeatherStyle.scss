@@ -1,0 +1,37 @@
+.div__Weather__Main__Data {
+    display: flex;
+    flex-direction: column;
+    max-width: 100%;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.401);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.401);
+    padding: 5px;
+    padding: 0 15px;
+
+    .div__Text__Content{
+        display: flex;
+        border-bottom: 1px solid rgba(255, 228, 196, 0.747);
+        justify-content: space-around;
+        align-items: center;
+        gap: 15px;
+        padding-top: 15px;
+
+        .text__Content{
+            font-style: italic;
+            margin: 0;
+        }
+    }
+
+    .img__Weather__Data{
+        text-align: center;
+    }
+
+    
+}
+
+.main__Weather__Div{
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+}

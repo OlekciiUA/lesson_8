@@ -1,0 +1,36 @@
+.other__Weather__Div {
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+    width: 100%;
+    margin-top: 25px;
+    background-color: rgba(0, 0, 0, 0.401);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.401);
+    padding: 5px;
+
+
+    .div__Text__Content {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        
+        margin: {
+            left: 5px;
+            right: 5px;
+            bottom: 5px;
+        }
+
+        .text__Content {
+            font-style: italic;
+            margin: 5px;
+        }
+
+        >div {
+            display: flex;
+            gap: 15px;
+            align-items: center;
+            border-bottom: 1px solid rgba(255, 228, 196, 0.747);
+            width: 100%;
+        }
+    }
+}
