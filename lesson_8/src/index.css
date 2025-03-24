@@ -8,3 +8,11 @@ body, html, .mainDiv {
     background-repeat: no-repeat;
     height: 100vh;
 }
+
+
+input{
+    transition: 0.5s;
+}
+input:hover{
+    background-color: rgba(0, 128, 0, 0.384);
+}
